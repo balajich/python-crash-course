@@ -1,5 +1,5 @@
 '''
-multiple assignment in tuples
+multiple assignment in 02_tuples
 '''
 
 if __name__ == '__main__':

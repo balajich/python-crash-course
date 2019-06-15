@@ -1,5 +1,5 @@
 '''
-Learn more about tuples
+Learn more about 02_tuples
 '''
 
 if __name__ == "__main__":

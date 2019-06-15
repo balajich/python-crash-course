@@ -1,5 +1,5 @@
 '''
-Slicing tuples
+Slicing 02_tuples
 '''
 
 if __name__ == "__main__":
