@@ -30,4 +30,4 @@ if __name__ == '__main__':
     # You cannot add two different types of variables
     # The below call will result an error
     # It can add or concatenate variables belong to same group
-    add('Hello', 20)
+    #add('Hello', 20)
