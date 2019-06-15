@@ -1,5 +1,5 @@
 '''
-Contains examples of functions
+Function with  out arguments
 '''
 
 
