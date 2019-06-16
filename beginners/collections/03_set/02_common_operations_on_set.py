@@ -14,6 +14,9 @@ if __name__ == "__main__":
     s.update([5, 6])  # add more elements
     print(s)
 
+    # find existence of an element in set
+    print(3 in s)
+
     # Remove elements
     s.remove(1)
     print(s)
