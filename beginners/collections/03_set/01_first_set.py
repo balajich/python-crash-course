@@ -13,3 +13,11 @@ if __name__ == "__main__":
     s.add(2)
     s.add(3)
     print(s)
+
+    # Create a set from list
+    s = set([1, 2, 3, 4, 1])  # Duplicates will be removed
+    print(s)
+
+    # set of characters
+    s = set('HelloWorld')
+    print(s)

@@ -1,15 +1,28 @@
 '''
-Set is a collection of unique elements
+Common operations on Sets like
+- Iteration
+- add or update
+- remove
 '''
 
 if __name__ == "__main__":
     # Create set
     s = {1, 2, 3}
     print(s)
-
-    # Create set using set function
-    s = set()
-    s.add(1)
-    s.add(2)
-    s.add(3)
+    s.add(4)  # add element
     print(s)
+    s.update([5, 6])  # add more elements
+    print(s)
+
+    # Remove elements
+    s.remove(1)
+    print(s)
+
+    a = {1, 2, 3}
+    b = {3, 4}
+    # Union
+    print('Union: ', a | b)
+    # Intersection
+    print('Intersection: ', a & b)
+    # Difference
+    print('Difference: ', a - b)
