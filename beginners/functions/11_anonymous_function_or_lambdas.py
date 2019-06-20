@@ -1,5 +1,7 @@
 '''
 create short anonymous functions, or lambdas
+A lambda function is a small anonymous function.
+A lambda function can take any number of arguments, but can only have one expression
 '''
 
 if __name__ == '__main__':
