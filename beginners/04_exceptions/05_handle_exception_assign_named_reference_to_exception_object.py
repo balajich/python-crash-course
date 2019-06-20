@@ -13,7 +13,7 @@ def convert(s):
         x = int(s)
         print('Conversion is successful')
     except (ValueError, TypeError) as e:
-        print('Conversion failed')
+        print('Conversion failed', e)
         x = -1
 
     return x
