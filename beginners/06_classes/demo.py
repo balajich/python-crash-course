@@ -1,17 +1,27 @@
-class Student:
+# Parent class
+class Shape:
+    def __init__(self, side1, side2):
+        self._side1 = side1
+        self._side2 = side2
 
-    def __init__(self, name):
-        self.name = name
-
-    def name(self):
-        return self.name
+    def area(self):
+        return self._side1 * self._side2
 
 
+# Child Class
+class Rect(Shape):
+    def __init__(self, length, breadth):
+        super().__init__(length, breadth)
 
-if __name__ == '__main__':
-    s = Student('Balaji')
-    s.name = 'Sankar'
-    s.last_name = 'xyz'
-    print(s.name)
-    print(s.last_name)
-    # print(s.name())
+
+# Child Class
+class Square(Shape):
+    def __init__(self, side):
+        super().__init__(side, side)
+
+
+if __name__ == "__main__":
+    r = Rect(10, 20)
+    print(r.area())
+    s = Square(10)
+    print(s.area())
