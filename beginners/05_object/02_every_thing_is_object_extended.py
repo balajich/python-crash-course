@@ -15,7 +15,7 @@ if __name__ == "__main__":
     # function is also object
     print(type(fun))
 
-    # even modules are objects
+    # even demo_08_import_classes are objects
     import sys
 
     print(type(sys))

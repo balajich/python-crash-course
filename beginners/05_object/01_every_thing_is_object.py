@@ -36,7 +36,7 @@ if __name__ == "__main__":
     # lambad is also object
     print(type(lambda x: print(x)))
 
-    # even modules are objects
+    # even demo_08_import_classes are objects
     import sys
 
     print(type(sys))
