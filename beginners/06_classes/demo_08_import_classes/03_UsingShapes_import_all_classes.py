@@ -5,3 +5,4 @@ if __name__ == "__main__":
     print('Area of Rectangle: ', rect.area())
     square = Square(10)
     print('Area of Square: ', square.area())
+
