@@ -9,13 +9,6 @@ if expr:
 else:
     print("expr is False”)
 
-if expr:
-    print("expr is True")
-elif expr:
-    print("expr is True”)
-else:
-    print("expr is False”)
-
 '''
 
 age = 60
