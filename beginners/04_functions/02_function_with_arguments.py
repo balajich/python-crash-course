@@ -20,10 +20,10 @@ if __name__ == '__main__':
     # Calling function with floats as arguments
     add(1.5, 2.5)
 
-    # Calling 03_functions with boolean as arguments
+    # Calling 04_functions with boolean as arguments
     add(True, False)
 
-    # Calling 03_functions with strings as arguments
+    # Calling 04_functions with strings as arguments
     # if it is string type, variable are going to be concatenated
     add('Hello', 'World')
 
