@@ -1,0 +1,133 @@
+Python basic data types -
+int, float, bool , none
+Conditional Statemtns
+if , while
+Releation opertions
+> <
+Strings
+Collections --  Group of objects
+lists,set,tuple,dict
+
+Python --- python 3.7 ( Future of the language)
+python 2 will not work on python 3
+
+REPL - >read , evaluates, print, loop
+Pycharm -IDE -- to write
+10 base 10
+0b101 // base to 2 represenstiona of numeric 5
+
+interger in python can be represented with a base
+0b101 // numeric
+
+opertaions on numerics
+conversion of other data type into numeric
+Every thing is object in python -- even basic data types
+But this is not true for Java or C++
+10  it is not an object  -- java
+
+Classes - oop
+
+Basic or Scalar -- Single value
+int
+float
+bool
+none
+
+Collections
+ Str
+ List
+ Tupe
+ Dict
+
+ int -- represnation , base represnation
+operations , +, -, **
+Converions
+
+intereg presenstion using underscore 10_000_000
+
+
+Float
+3.9 10^6
+
+opertaions
+converstions of ther types
+
+bool
+--- Several liabrries uses bool ..
+Creation - True, False  -Casesensite
+Operation -- Logical operators
+Converstion -- Pay attention  -- it widely used in if and while conditional statemetns
+Bool of Zero,empty,None, empty collection is always False
+
+
+None is equilvante null or null obect
+None is an empty object -- functions , lambdas .. this will be helpful
+-- operations or conversion
+
+Condition statem -if , if else , elif
+if ,elif,else
+
+while loop
+ -- break
+  -- Continue
+ if expr:
+     print('This is true')
+
+	 expr - bool()
+
+while expr:
+		print('statements')
+	until expr become false ... This gets executed
+	contineu
+	break
+	continue wont break the loop but jumps control to the starting of the loop
+//Reading input from standard console
+you can use input function
+return type of input is string
+
+String in python -- String maniuplation is core to python
+--- creating string
+ -- operations
+ -- Converting string to other
+
+ Collection
+ -str
+ - list
+ -tuple
+ - set
+ -dict
+
+ String is a sequnce of unicode charchters in python
+ascii
+utf-8, uft-32
+escape sequcne --- \
+Multi line string
+raw strings doesnt care about escape charchters
+path='c:\users\home'
+
+Creation
+operation
+
+Strings are immutable in python  - if you do any operation on a string a new string is created. existing string cannot be changed
+
+str -- object
+'a'*5 --- repetation
+
+2*5
+
+if an object doesnt have any reference it is eligibel for garbage collection
+a='abc'
+
+a='ABC'
+
+essetily small abc is eligible for garbage collection
+
+Immutable
+String,
+Tupes
+
+Mutable
+list
+dict
+set
+custom

@@ -1,5 +1,5 @@
 ''' While loops
-Move to the starting of loop with out executing below statemetn
+Move to the starting of loop with out executing below statements
 '''
 # print from 0 to 10, skipping 5
 i = 0
