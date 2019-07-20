@@ -1,0 +1,96 @@
+Python Collections -
+Basic Data types - int,float,bool ..etc
+Collection -- Grouping this basic datatype os that you can use efficenlty
+
+Heights studnets in your clss
+s1,s2,s3
+[10,20]
+
+Collections --
+Str -Sequence of charchtes
+List - Unorderd collection of elements
+Set - Unique elements
+Dict or Map - Key,value
+tuple - inmmutable collection
+
+New classes  -OOP
+
+######################
+Str - 'abc'
+List - Inpython we dont have array -C++, java ... Consiquite memeory locations it cannot be changed
+a[10]
+a[11]
+List -- Dynamic nature
+Array (static) one data type vs LISt (Dynamic) ,multiple data types
+
+List,Set,Dict (Mutable)
+------------------
+Create
+Update
+Read (search , iterate)
+delete (an element or entire list)
+
+immutable constants - tuple
+-----------------------------
+tuple -create
+Read
+delete -entire tuple
+
+######################
+list starts with zero index
+index number can be positive or negative
+0 index is first element
+-1 index is last element
+
+Slicing is used to creae a sublist
+l[ startindex: endindex-1]
+start and endinexes are optional
+search for an element in list
+search using in operator
+Iterator through list
+
+List can have multiple data types
+
+update an elemetn
+l[index]=value
+
+del can delete an element in list or delete entire list
+delete an elemetn in the list
+unpacking a list -- Unpack list and assign it to multiple variables
+or multiple assignment
+
+#########################
+
+tuples are immutable or constants
+()
+read,search ,itearate , slicing is comman is list
+no updates or deletes
+velctor a+ij
+scalar - single
+slare -numeric
+DOB is not numeric -- day-month-year
+
+set garutnees uniquess . no duplicate elemetns
+
+{key:value}
+{key:value,key:value}
+key can be any python immutable type - Str, basic datatypes
+value can be any python type
+Accessing element in dictonary is key based  not index
+Search for a key  using in dictonary. you cannot search for value
+//append elements in dict
+d[key]=value
+
+Consuming or publishe rest api .. it follow JSON syntax
+
+#################################
+s={'Alex':{'address':'hyderabad',marks:[10,20]}}
+Complex objects can be created using dict
+create
+updae
+delete
+iterate
+search
+
+
+
