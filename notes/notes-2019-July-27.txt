@@ -1,0 +1,78 @@
+python execution modle
+How a python program gets executed
+-- scripts, module,libarires
+Functions -- very essential
+create a function
+return
+arguments
+key word arguments
+position argument
+anonymous function
+lambdas
+
+Exceptions
+catch exception
+try except pass
+
+#####################################
+Exectuion model
+How a python program gets executed
+what is difference between script and module in python
+what is the predefined variable __name__
+How a python script is invoked
+.py -- module in pythonis  just a  python file
+i
+python file .. wheter it is invoked as a script or as moudle
+
+__name__ -- will help you to understand the invocation type -- module or as a script
+
+When you have test cases ... you can have them in your module
+##############################################
+Functions in python
+labelling a block
+repetable use that code
+inputs to function -- function arguments
+arguments doesnt have strict data type
+a,b is called positional arguments are mandatory
+
+Two types of arguments
+mandatory - positional -- These should take same order in which they are defined
+non-mandatory or default -- keyword arguments
+keyword arguments order doesnt matter
+
+Retrun values from function
+pass doenst return any thing from function
+
+empty return .. retuns none type
+
+####################################
+anonymous functions -- A function with out name
+def add(a,b):
+       return a+b
+
+lambda a,b: a+b -- addion function with out name
+
+Inpython every thing is object --even function is also object
+assign function to variable
+function passed as arguments to other functions -- open for extenstion and close for chaneg design principle
+lambda arguments:expression
+#######################
+Exceptions
+-----------
+Unexpected behavior in program .. you need to handle it
+Exception or error is same --- and they are objects of exception class
+exception occures --- if you dont handle it
+application will terminate with trace
+
+Exception handling cab be achived with
+try- except,
+
+multiple except blocks or using tuple
+An exception object can be assigned to variables using keyword 'as'
+Global exception handler
+raise is used to throw exception
+Excepitons or error is same
+They are object s of exception class
+try except
+an exception object can be assigned to variable
+
