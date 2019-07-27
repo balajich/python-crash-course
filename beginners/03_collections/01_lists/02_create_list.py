@@ -12,3 +12,7 @@ if __name__ == "__main__":
     l1.append(2)
     l1.append(3)
     print(l1)
+
+    # List can have multiple  data types in it
+    l2 = [1, 'a', 1.1]
+    print(l2)

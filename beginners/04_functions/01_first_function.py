@@ -1,4 +1,5 @@
 '''
+Functions named blocks of code that are designed to do one specific job.
 Function with  out arguments
 '''
 
