@@ -66,9 +66,9 @@ requriement.txt is essential to say dependences of your python script
 you can create it using pip
 virtual -- a separate directory
 activate
-installl
+install
 freeze
-deactive virtual environment
+deactivate virtual environment
 
 
 
