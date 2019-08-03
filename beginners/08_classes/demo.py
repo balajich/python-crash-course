@@ -1,27 +1,16 @@
-# Parent class
-class Shape:
-    def __init__(self, side1, side2):
-        self._side1 = side1
-        self._side2 = side2
-
-    def area(self):
-        return self._side1 * self._side2
+class A:
+    pass
 
 
-# Child Class
-class Rect(Shape):
-    def __init__(self, length, breadth):
-        super().__init__(length, breadth)
+class B:
+    pass
 
 
-# Child Class
-class Square(Shape):
-    def __init__(self, side):
-        super().__init__(side, side)
+class C(A, B):
+    def hello(self):
+        print('Class C')
 
 
 if __name__ == "__main__":
-    r = Rect(10, 20)
-    print(r.area())
-    s = Square(10)
-    print(s.area())
+    r = Rect()
+    print(r.get_name())
