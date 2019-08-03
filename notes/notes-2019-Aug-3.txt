@@ -1,0 +1,74 @@
+Objects --
+Classes -- Object oriented proagraming python
+Python statnd library
+virtual environments in python
+Distributing python code
+####################
+every thing is object -- primitive Like int,float,bool , function, module, class
+Object - Instance of class or template -- contains attributes / member variables , functions acting on them
+Class - create a class
+Create a initializer
+Create a member variables
+Create a member method
+
+Instantiate the calls -- create objects of that class
+##################
+Empty class
+{
+member vairables
+member methods
+}
+student.name
+
+to define memeber variabe .. you need to use under score
+_variablename
+
+-------
+Class create a class
+def to define a member method
+def __init__(): to create memeber variables
+Create member variables only in init method
+
+init is not constructor ..
+#########################
+Duck typing -- Data types are not strict
+
+Inheritance -- Code reuse
+Shape -> Rect  -> Rhombus
+Multiple  Inheritce A,B
+Over riding -- define same method in child --- if you want to call paraent .. use super()
+Python doesnt have compile time polymorphism
+Runtime and compile time ..
+###############################
+python standard library or build in functions
+virtual environment -- debug real world python code
+
+module is a file
+module contains --- functions, variables , classes
+group of modules is library
+#################
+Standard libraries -- comes with default installation -- Standard libaries conatins default functios or class like print ,str, ..etc
+
+They are available in module names __builtins__
+
+###################
+virtual environment
+python libraries -- Are global
+requests --- 20
+Rk
+requests -16
+
+Global libraries shouldn't be used
+
+Sandbox your dependencies .. use need to use virtaul environement
+VE -- a separate directory-- you will not use global libaries
+requriement.txt is essential to say dependences of your python script
+you can create it using pip
+virtual -- a separate directory
+activate
+installl
+freeze
+deactive virtual environment
+
+
+
